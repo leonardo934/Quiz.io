@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><!--pt-br-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ss.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div id="catoda">
+        <div class="espaco1"></div>
+        <div class="centro">
+            <div class="espaco2"></div>
+
+
+            <!-- tela de login -->
+            <div id="pagina_login" class="pagina_toda">
+                <div id="login">
+                    <h2>Login do Quiz </h2>
+                    <br>
+                    <input type="text" class="ired" placeholder="E-mail " id="email_log"><br>
+
+                    <input type="password" class="ired" placeholder="Coloque sua senha" id="pwd_log"
+                        autocomplete="current-password"><br>
+                    <div class="bt">
+                        <button class="alt" id="logar">Logar</button><br>
+                        <button class="alt" id="se_cadastrar">Cadastre agora </button>
+                    </div>
+                </div>
+            </div>
+            <!-- fim da tela de login -->
+
+            <!-- tela de cadastro -->
+            <div id="pagina_cadastro" class="pagina_toda">
+                <div id="cadastro">
+                    <h2> Cadastro do Quiz </h2>
+                    <br>
+                    <input type="text" class="ired" placeholder="E-mail " id="email_cad"><br>
+
+                    <input type="text" class="ired" placeholder="Nome de usuario" id="usr_cad"><br>
+
+                    <input type="password" class="ired" placeholder="Coloque sua senha" id="pwd_cad"
+                        autocomplete="current-password"><br>
+                    <div class="bt">
+                        <button class="alt" id="Cadastro">Cadastrar</button>
+
+                        <button class="alt" id="btLogin">Ir para o login </button>
+                    </div>
+                </div>
+                <div class="espaco1"></div>
+            </div>
+            <!-- fim da tela de cadastro -->
+
+
+
+
+
+            <!--Começo Do Quiz-->
+            <div id="pagina_quiz" class="pagina_toda">
+                <div id="quiz">
+                    <h2>NÃO PODE USAR O GOOGLE E NEM A CALCULADORA!</h2>
+                    <h2>Quiz</h2>
+                    <br>
+                    <div>
+                        <h2>Quanto que é 12*55?</h2>
+                        <br>
+                        <div class='pergunta'>
+                            <label><input type="radio" name="pergunta1" value="1"> 660</label>
+                            <br>
+                            <label><input type="radio" name="pergunta1" value="2"> 542</label>
+                            <br>
+                            <label><input type="radio" name="pergunta1" value="3"> 945</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Qual é o maior mamífero?</h2>
+                        <br>
+                        <div class='pergunta'>
+                            <label><input type="radio" name="pergunta2"  value="1"> Leão</label>
+                            <br>
+                            <label><input type="radio" name="pergunta2"  value="2"> Baleia-azul</label>
+                            <br>
+                            <label><input type="radio" name="pergunta2"  value="3"> Girafa</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Qual é o animal mais venenoso?</h2>
+                        <br>
+                        <div class='pergunta'>
+                            <label><input type="radio" name="pergunta3" value="1"> Aranha</label>
+                            <br>
+                            <label><input type="radio" name="pergunta3" value="2"> Peixe-pedra</label>
+                            <br>
+                            <label><input type="radio" name="pergunta3" value="3"> Escorpião-amarelo</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Qual ano surgiu a peste-negra?</h2>
+                        <br>
+                        <div class='pergunta'>
+                            <label><input type="radio" name="pergunta4" value="1"> 1530</label>
+                            <br>
+                            <label><input type="radio" name="pergunta4" value="2"> 1348</label>
+                            <br>
+                            <label><input type="radio" name="pergunta4" value="3"> 1276</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>O Brasil é de qual continente?</h2>
+                        <br>
+                        <div class='pergunta'>
+                            <label><input type="radio" name="pergunta5" value="1"> América do sul</label>
+                            <br>
+                            <label><input type="radio" name="pergunta5" value="2"> América latina</label>
+                            <br>
+                            <label><input type="radio" name="pergunta5" value="3"> América do norte</label>
+                        </div>
+                    </div>
+                    <br>
+                    <button id="enviar">ENVIAR</button>
+                </div>
+            </div>
+            <!--Fim Do Quiz-->
+
+            <div class="espaco2"></div>
+        </div>
+        <div class="espaco1"></div>
+    </div>
+    <script src="./jv.js"></script>
+</body>
+
+</html>
